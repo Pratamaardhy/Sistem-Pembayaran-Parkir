@@ -21,10 +21,9 @@ struct Node
 // deklarasi struct untuk queue
 struct Queue
 {
+    int count;
     struct Node *front, *rear, *temp;
 };
-
-int count = 0;
 
 void menu()
 {
